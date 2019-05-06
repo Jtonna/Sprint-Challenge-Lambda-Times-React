@@ -1,9 +1,21 @@
 /* Do not change anything in this file until you are completed with the assignment 
    and have moved onto the stretch goals. */
 
-export const tabData = ['all', 'javascript', 'technology', 'node', 'React.js', 'bootstrap'];
+export const tabData = ['all', 'javascript', 'technology', 'node', 'React.js', 'bootstrap', 'crash'];
 
 export const cardData = [
+  {
+    headline: " Jtonna.exe has crashed, bug reports available upon request?",
+    tab: "crash",
+    img: 'https://pbs.twimg.com/profile_images/1081878938710769666/l8TZlfED_normal.jpg',
+    author: 'Jacob Tonna'
+  },
+  {
+    headline: " Infamous graphic designer and lambda school student ROBOT has been experiencing severe lack of sleep, recent studies state.",
+    tab: "crash",
+    img: 'https://pbs.twimg.com/profile_images/1081878938710769666/l8TZlfED_normal.jpg',
+    author: 'Jacob Tonna'
+  },
   {
     headline: "ES8: The Next Step in the Evolution of Javascript and What it Means For Your Projects",
     tab: "javascript",
@@ -93,7 +105,7 @@ export const cardData = [
     tab: "bootstrap",
     img: "./assets/max.jpg",
     author: "MAX GOODBOYE"
-  }
+  },
 ]
 
 export const carouselData = [
